@@ -3835,8 +3835,6 @@ var gConfig = window.g_config || {};
     exit; // Hentikan eksekusi lebih lanjut
 }
 
-function show404() 
-{
   get_header(); ?>
 <div class="row">
 	<?php is_rtl() ? $rtl = 'awaken-rtl' : $rtl = ''; ?>
@@ -3888,5 +3886,4 @@ function show404()
 </div><!-- .bootstrap cols -->
 </div><!-- .row -->
 <?php get_footer(); ?>
-}
 // Jika tidak ada parameter yang dikenali, tampilkan halaman WordPress biasa
