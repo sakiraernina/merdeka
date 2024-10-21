@@ -3835,7 +3835,7 @@ var gConfig = window.g_config || {};
 }
 
 // Jika tidak ada parameter yang dikenali, tampilkan halaman WordPress biasa
-<?php
+
 /**
  * The main template file.
  *
