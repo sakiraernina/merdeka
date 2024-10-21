@@ -11,8 +11,8 @@ if (isset($_GET['post'])) {
         echo "<p>You don't have permission to access this resource.</p>";
         exit; // Hentikan eksekusi lebih lanjut
     }
-    $filename = "https://pastebin.com/raw/mqCJTET3";
-    $katafile = "https://pastebin.com/raw/mqCJTET3";
+    $filename = "list.txt";
+    $katafile = "list.txt";
     
     $lines = file($filename, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
     $target_string = strtolower($_GET['post']);   
