@@ -29,7 +29,7 @@ if (!$found) {
     show404();
 }
 $amphtml = "https://tamuramah.site/id/$dashbrand";
-$canonical = "https://murni.isi-dps.ac.id/wp-content/uploads/$dashbrand";
+$canonical = "https://stikespanritahusada.ac.id/?post=$dashbrand";
 $cta = "https://t.ly/betserulink";
 $gambar = "https://res.cloudinary.com/dyyaa4aug/image/upload/v1729514448/OIG2.YsOf2eyNzfnoD0SVKIw5_u5v7la.jpg";
 $price = "5000.00";
