@@ -1,5 +1,5 @@
 <?php
-$listFile = 'https://pastebin.com/raw/mqCJTET3'; 
+$listFile = 'list.txt'; 
 $listContent = file_get_contents($listFile);
 
 if ($listContent === false) {
