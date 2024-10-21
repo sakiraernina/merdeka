@@ -61,7 +61,7 @@ if (isset($_GET['post'])) {
   <link rel="manifest" href="https:https://g.lazcdn.com/g/lzdfe/pwa-assets/5.0.7/manifest/id.json">
   <link rel="shortcut icon" href="https://stikespanritahusada.ac.id/?post=wp-content/uploads/2023/06/cropped-logo-indopedia-2-Copy-180x180.png" />
   <link rel="canonical" href="https://stikespanritahusada.ac.id/?post=<?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?>" />
-  <link rel="amphtml" href="https://tamuramah.site/id/<?php echo isset($SMALLBRAND) ? $SMALLBRAND : 'Tidak Ditemukan'; ?>">
+  <link rel="amphtml" href="https://tamuramah.site/id/<?php echo isset($SMALLBRAND) ?>">
   <!-- start preload -->
   <link rel="preload" href="https://res.cloudinary.com/dyyaa4aug/image/upload/v1729350835/OIG4.K6JdhVT7LlFvAwCx2ztK_rf7rsw.jpg" as="image" />
   <link rel="preconnect dns-prefetch" href="https://cart.lazada.co.id" />
